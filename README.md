@@ -115,6 +115,10 @@ _Damos click en **View** y automáticamente se desplegará nuestra página web, 
 
 ![blog](https://user-images.githubusercontent.com/76794301/123410230-b1275680-d574-11eb-8797-082cacb862c8.JPG)
 
+LINK DEL BLOG:
+
+https://personal-blog-franks-sanay.herokuapp.com/
+
 ## Construido con 🛠️
 
 * [Visual Studio Code](https://code.visualstudio.com/) - IDE de desarrollo
