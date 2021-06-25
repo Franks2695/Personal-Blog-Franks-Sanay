@@ -1,0 +1,84 @@
+{{> header }}
+
+<body>
+
+    {{> navbar }}
+
+    <div class="p-5 mb-4 bg-light text-dark rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">TELÉFONOS</h1>
+            <h3 class="col-md-8 fs-4">0993666209</h3>
+            <h3 class="col-md-8 fs-4">0967905660</h3>
+            <h3 class="col-md-8 fs-4">2696975</h3>
+        </div>
+    </div>
+
+    <div class="p-5 mb-4 bg-light text-dark rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">CORREO ELECTRÓNICO</h1>
+            <ul>
+                <li><h3 class="col-md-8 fs-4">frankssanay@gmail.com</h3></li>
+                <li><h3 class="col-md-8 fs-4">fsanays@est.ups.edu.ec</h3></li>
+                <li><h3 class="col-md-8 fs-4">anthony-sanay1@hotmail.com</h3></li>
+            </ul>
+        </div>
+    </div>
+
+     <div class="p-5 mb-4 bg-light text-dark rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">REDES SOCIALES</h1><br>
+            <a href="https://www.instagram.com/franks_anthony/?hl=es-la" target="_blank">
+                <button type="button" class="btn btn-instagram">
+                    INSTAGRAM
+                </button>
+            </a><br><br>
+            <a href="https://www.facebook.com/franks.sanay" target="_blank">
+                <button type="button" class="btn btn-facebook">
+                    FACEBOOK
+                </button>
+            </a><br><br>
+            <a href="https://twitter.com/FranksAnthony7?s=08" target="_blank">
+                <button type="button" class="btn btn-twitter">
+                    TWITTER
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <div class="p-5 mb-4 bg-secondary text-dark align-content-center rounded-3">
+        <div class="container-fluid py-5">
+            <div class="row">
+                <div id="templatemo_contact" class="col-md-12 gallery-contact">
+                    <div class="col-md-12 templatemo_contactform align-items-center">
+                        <div class="templatemo_contacttitle text-dark">CONTACTO</div>
+                            <div class="templatemo_sub_contacttitle"></div>
+                                <p class="col-md-8 fs-4 fw-bold">Ingresa tu información si deseas contactarte conmigo.</p>
+
+                        <form action="/views/presentacion.hbs" method="post">
+                            <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+                            <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+                            <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+                            <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+                            <div class="clear">
+                                <div class="col-md-12"> 
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                        </form>
+            </div><br><br>
+            <a href="mailto:frankssanay@gmail.com" target="_blank">
+                <button type="submit" class="btn btn-primary">ENVIAR </button> 
+            </a>
+            <p class="col-md-12 fs-4 fw-bold text-end">O envíame un mensaje directo por WHATSAPP:</p>
+            <a href="https://wa.me/593993666209" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
+        </div>
+    </div>
+
+    {{> footer}}
+
+</body>
+
+</html>
